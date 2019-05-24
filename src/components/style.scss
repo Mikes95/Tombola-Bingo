@@ -1,0 +1,111 @@
+
+.container{
+
+  display: flex;
+}
+
+
+
+
+.Tombola{
+  margin: 10px;
+  width: 890px;
+  height: 800px;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: brown;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  overflow: hidden;
+
+}
+
+.rect {
+  width: 80px;
+  height: 80px;
+  //border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  line-height: 75px;
+  text-align: center;
+  background: #0000006e;
+  margin: 3px;
+  border-radius: 4px;
+  overflow: hidden;
+} 
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  line-height: 100px;
+  font-size: 3rem;
+  text-align: center;
+  background: #0b40086e;
+  margin: 14px
+} 
+.circleB {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-size: 3.3rem;
+  color: #fff;
+  line-height: 115px;
+  text-align: center;
+  background: #ff0000b5;
+  margin: 7px
+} 
+.rect:hover {
+  width: 80px;
+  height: 80px;
+  font-weight: bold;
+  font-size: 44px;
+  //border-radius: 50%;
+  //font-size: 30px;
+  color: #fff;
+  line-height: 75px;
+  text-align: center;
+  background: #0000006e;
+  margin: 3px;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  
+ 
+} 
+
+.rectSelected {
+  width: 75px;
+  height: 75px;
+  //border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  line-height: 75px;
+  text-align: center;
+  background: #c6c6c6c4;
+  margin: 3px;
+  margin-left: 5.3px;
+  margin-right: 5.3px;
+  cursor: pointer;
+  border-radius: 4px;
+  transform: scale(1.2,1.2)
+
+ 
+} 
+
+.infoContainer{
+  margin: 10px;
+}
+
+.lastNumbers{
+
+}
+
+.NumbersSelected{
+  padding: 30px;
+  display: flex;
+}
